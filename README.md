@@ -1,2 +1,10 @@
 # Twitter-COVID-19-vaccine-sentiment-and-topics
-framework of Sentiment based Topic Modeling on measuring public sentiment and discovering concerns of COVID-19 vaccines 
+Build a framework of Sentiment based Topic Modeling on measuring public sentiment and discovering concerns of COVID-19 vaccines 
+
+In this study, we  focused on tweets that are only related to COVID-19 vaccines (Pfizer, Moderna, AstraZeneca, and Johnson & Johnson) after vaccines became publicly available. We aimed to explore the overall sentiments and topics of tweets about COVID-19 vaccines, as well as how such sentiments and main concerns evolved.
+
+We collected 1,122,139 tweets related to COVID-19 vaccines from December 14, 2020, to April 30, 2021, using Twitter api .After data preprocessing. We then applied sentiment–based topic modeling by using the compound score to determine sentiment polarity and using the LDA toopic modeling to determine main topics for different sentiment polarity categories. Finally, we calculated the topic distribution to illustrate the topic evolution of main concerns.
+
+Overall, 398,661 (46.51%) were positive, 204,084 (23.81%) were negative, 245,976 (28.70%) were neutral, 6899 (0.80%) were highly positive, and 1508 (0.18%) were highly negative sentiments. The main topics of positive and highly positive tweets were planning for getting vaccination (251,979/405,560, 62.13%), getting vaccination (76,029/405,560, 18.75%), and vaccine information and knowledge (21,127/405,560, 5.21%). The main concerns in negative and highly negative tweets were vaccine hesitancy (115,206/205,592, 56.04%), extreme side effects of the vaccines (19,690/205,592, 9.58%), and vaccine supply and rollout (17,154/205,592, 8.34%). During the study period, negative sentiment trends were stable, while positive sentiments could be easily influenced. Topic heatmap visualization demonstrated how main concerns changed during the current widespread vaccination campaign.
+
+Our results can help policymakers and research communities track public attitudes toward COVID-19 vaccines and help them make decisions to promote the vaccination campaign.
